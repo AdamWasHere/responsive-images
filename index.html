@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--Tasks
+
+1. Crop and convert each image into appropriate sizes - DONE
+2. Be sure to add the attribution to your images as a comment in either your CSS or HTML. DONE
+3. In your webpage there will be 3 layouts. Use percentages to control the width of the <li> elements and the margins between them. DONE
+4. Each image should have a transition and transform applied in CSS. The transition property should be your transform which must have a minimum duration of 0.2s and must specify a transition-timing-function property such as "ease-in".
+
+
+
+
+All images used belong to:
+
+Markus Spiske - https://500px.com/markusspiske (Links to an external site.)Links to an external site. 
+
+Yinan Chen - https://500px.com/webmaster85 (Links to an external site.)Links to an external site. 
+
+Fahim Akhter - https://500px.com/fahimakhter (Links to an external site.)Links to an external site. -->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Responsive images</title>
+
+    <link rel="stylesheet" href=CSS/main.css>
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Responsive Images</h1>
+
+    </header>
+
+    <div class="wrapper">
+        <ul>
+            <li>
+                <picture>
+                    <img src="IMG/images/600x450/markus-spiske-carrots600x450.jpeg" alt="Carrots" srcset="IMG/images/800x600/carrots800x600.jpeg 800w, IMG/images/600x450/markus-spiske-carrots600x450.jpeg 600w, IMG/images/400x300/markus-spiske-carrots.jpeg 400w">
+                </picture>
+
+            </li>
+
+            <li>
+                <img src="IMG/images/600x450/fahim-akhter-kund-malir-pakistan copy 600x450.jpg" alt="pakistan" srcset="IMG/images/800x600/kund-malir-pakistan800x600.jpg 800w, IMG/images/600x450/fahim-akhter-kund-malir-pakistan copy 600x450.jpg 600w, IMG/images/400x300/fahim-akhter-kund-malir-pakistan copy400x300.jpg 400w">
+
+            </li>
+
+
+            <li>
+                <img src="IMG/images/600x450/markus-spiske-concert-crowd600x450.jpeg" alt="Concert crowd" srcset="IMG/images/800x600/concert-crowd800x600.jpeg 800w, IMG/images/600x450/markus-spiske-concert-crowd600x450.jpeg 600w, IMG/images/400x300/markus-spiske-concert-crowd.jpeg 400w">
+
+            </li>
+
+
+            <li>
+
+                <img src="IMG/images/600x450/markus-spiske-guitar600x450.jpeg" alt="Guitar" srcset="IMG/images/800x600/guitar800x600.jpeg 800w, IMG/images/600x450/markus-spiske-guitar600x450.jpeg 600w, IMG/images/400x300/markus-spiske-guitar.jpeg 400w">
+
+            </li>
+            <li>
+
+                <img src="IMG/images/600x450/markus-spiske-stage600x450.jpeg" alt="Stage" srcset="IMG/images/800x600/stage800x600.jpeg 800w, IMG/images/600x450/markus-spiske-stage600x450.jpeg 600w, IMG/images/400x300/markus-spiske-stage.jpeg 400w">
+
+            </li>
+            <li>
+
+                <img src="IMG/images/600x450/yiman-chen-castlerock-wisconsin600x450.jpeg" alt="Wisconsin" srcset="IMG/images/800x600/castlerock-wisconsin800x600.jpeg 800w, IMG/images/600x450/yiman-chen-castlerock-wisconsin600x450.jpeg 600w, IMG/images/400x300/yiman-chen-castlerock-wisconsin.jpeg 400w">
+
+            </li>
+            <li>
+
+                <img src="IMG/images/600x450/yiman-chen-gibraltar-rock-wisconsin600x450.jpeg" alt="Gibraltar Rock" srcset="IMG/images/800x600/gibraltar-rock-wisconsin800x600.jpeg 800w, IMG/images/600x450/markus-spiske-guitar600x450.jpeg 600w, IMG/images/400x300/markus-spiske-guitar.jpeg 400w">
+
+            </li>
+        </ul>
+    </div>
+
+    <main>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <p>&copy;<time datetime="2017">2017</time> Adam Nieuwenhuizen</p>
+
+    </footer>
+
+</body>
+
+</html>
